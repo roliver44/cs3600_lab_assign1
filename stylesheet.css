@@ -122,9 +122,9 @@ html, body {
 .profile_description td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
 }
 
 .profile_description th {
-  background-color: #555;
+  background-color: #555555;
 }
