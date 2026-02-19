@@ -30,6 +30,18 @@ html, body {
     padding: 50px;
 }
 
+.root .projects_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: nowrap;
+    background-color: #5b5b5b;
+    gap: 50px;
+    padding: 50px;
+}
+
 .root .footer {
     display: flex;
     flex-direction: row;
