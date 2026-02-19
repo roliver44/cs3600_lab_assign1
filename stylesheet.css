@@ -17,6 +17,7 @@ html, body {
     height: 80px;
     align-items: center;
     background-color: #6e6e6e;
+    
 }
 .root .content {
     display: flex;
@@ -32,11 +33,10 @@ html, body {
 
 .root .projects_content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
-    flex-wrap: nowrap;
     background-color: #5b5b5b;
     gap: 50px;
     padding: 50px;
@@ -117,6 +117,8 @@ html, body {
     border-style: none;
     border-radius: 25px;
     background-color: #6e6e6e;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.08);
 }
 
 .root .content .profile_description p {
@@ -139,4 +141,14 @@ html, body {
 
 .profile_description th {
   background-color: #555555;
+}
+
+.project_tile{
+  width: 800px;
+  background-color: #6e6e6e;
+  color: white;
+  border-radius: 18px;
+  padding: 24px 28px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
 }
